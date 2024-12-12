@@ -61,47 +61,6 @@ header p {
     font-weight: 500;
   }
   
-  #switch {
-    position: relative;
-    width: 64px;
-    margin: 4px auto;
-  }
-  
-  #switch button {
-    width: 32px;
-    height: 32px;
-    background: white var(--switch-bg-url) no-repeat center;
-    border: 0;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-    transform: translateY(-50%);
-  
-    animation: slide-back 0.2s;
-  }
-  
-  .light #switch button {
-    animation: slide-in 0.2s forwards;
-  }
-  
-  #switch button:hover {
-    outline: 8px solid var(--highlight-color);
-  }
-  
-  #switch span {
-    display: block;
-    width: 64px;
-    height: 24px;
-    background: var(--surface-color);
-    border: 1px solid var(--text-color);
-    backdrop-filter: blur(4px); 
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 9999px;
-  }
-
 .Links{
     display: flex;
     flex-direction: column;
